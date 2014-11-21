@@ -1,0 +1,57 @@
+--- !ruby/object:Library
+authors:
+- !ruby/object:Author
+  name: Author1
+- !ruby/object:Author
+  name: Author2
+books:
+- !ruby/object:Book
+  title: book1
+  author: Grag
+- !ruby/object:Book
+  title: book2
+  author: Tom
+- !ruby/object:Book
+  title: book3
+  author: Tom
+- !ruby/object:Book
+  title: book4
+  author: Tolkien
+- !ruby/object:Book
+  title: book5
+  author: Batman
+- !ruby/object:Book
+  title: book6
+  author: Anthony
+orders:
+- !ruby/object:Order
+  book: book2
+  reader: Denis
+- !ruby/object:Order
+  book: book1
+  reader: Sin
+- !ruby/object:Order
+  book: book2
+  reader: Denis
+- !ruby/object:Order
+  book: book2
+  reader: Vova
+- !ruby/object:Order
+  book: book5
+  reader: Vova
+- !ruby/object:Order
+  book: book2
+  reader: Vova  
+readers:
+- !ruby/object:Reader
+  name: Denis
+  email: dok@multinet.dp.ua
+  city:  Dnepr
+- !ruby/object:Reader
+  name: Vova
+  email: xz@mail.ru
+  city: Kiev  
+- !ruby/object:Reader
+  name: Sin
+  email: test@mail.ru
+  city: Pavlograd    
